@@ -1,5 +1,16 @@
 .App {
-  text-align: center;
+text-align: center;
+}
+.container{
+  width: 50%;
+  margin: 0 auto;
+  background-color: #fff;
+  margin-top: 150px;
+  box-sizing: border-box;
+  box-shadow: 2px 11px 5px 0px rgba(0,0,0,0.75);
+ -webkit-box-shadow: 2px 11px 5px 0px rgba(0,0,0,0.75);
+ -moz-box-shadow: 2px 11px 5px 0px rgba(0,0,0,0.75);
+ border-radius: 10px;
 }
 
 .App-logo {
