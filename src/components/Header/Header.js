@@ -23,7 +23,7 @@ const Header = () => {
         <li>
           <span> {user.displayName} </span>
         </li>
-        {user?.email && (
+        {user?.displayName && (
           <li>
             <button className="btn" onClick={logOut}>
               Log Out
